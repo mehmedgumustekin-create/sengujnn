@@ -1,7 +1,0 @@
-[core]
-	editor = \"C:\\Users\\Compsci\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
-[filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
